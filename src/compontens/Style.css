@@ -1,0 +1,118 @@
+.boxmap{
+    position: absolute;
+    left: 542px;
+    top: 2929px;
+}
+.divabout {
+    color: #e5e5e5;
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    left: 625px;
+    top: 877px;
+}
+.abouthome{
+    margin-bottom: 600px;
+}
+.imgabout {
+    position: absolute;
+    left: 94px;
+    top: 1250px;
+}
+.patternss {
+    height: 100vh;
+    position: absolute;
+    top: -390px;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+.containerr{
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    top: -245px;
+    left: 308px;
+    margin: 0 15px;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+.containerr .skill-box{
+    width: 100%;
+    margin: 25px 0;
+}
+.skill-box .title{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.skill-box .skill-bar{
+    height: 8px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 6px;
+    background: rgba(208, 205, 205, 0.1);
+}
+.skill-bar .skill-per{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 90%;
+    border-radius: 6px;
+    background: #4070f4;
+    animation: progress 0.4s ease-in-out forwards;
+    opacity: 0;
+}
+.skill-per.css{
+    width: 70%;
+    animation-delay: 0.1s;
+}
+.skill-per.javascript{
+    width: 50%;
+    animation-delay: 0.2s;
+}
+.skill-per.nodejs{
+    width: 89%;
+    animation-delay: 0.3s;
+}
+@keyframes progress {
+    0%{
+        width: 0;
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.skill-per .tooltip{
+    position: absolute;
+    right: -14px;
+    top: -28px;
+    font-size: 9px;
+    font-weight: 500;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background: #4070f4;
+    z-index: 1;
+}
+.tooltip::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+    background-color: #4070f4;
+    transform: translateX(-50%) rotate(45deg);
+
+}
+.skilss{
+    color: #fff;
+    font-family: Poppins;
+    margin-left: 156px;
+}
